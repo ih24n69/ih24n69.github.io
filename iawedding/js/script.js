@@ -201,7 +201,7 @@
 
     /*FireFly in Intro*/
     $.firefly({
-      color: '#fff', minPixel: 1, maxPixel: 3, total: 55, on: '.into_firefly'
+      color: '#d6c05e', minPixel: 1, maxPixel: 4, total: 60, on: '.into_firefly'
     });
 
     $("#envelope").on("click", function(e){
