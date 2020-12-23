@@ -63,7 +63,7 @@
 
     
       function sent(){
-        $('#div_' + type).html("<div id='form_send_message'>Thank you :)</div>", 1500);
+        $('#div_' + type).html("<div id='form_send_message'>❤️ Terimakasih (^_^) ❤️</div>", 1500);
       }
 
       var dataObj = {
