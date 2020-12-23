@@ -1,0 +1,135 @@
+body {
+	background-image:url(../images/red/main_back2.png);
+	/* background-size: cover !important; */
+	/* background-color: rgba(0,0,0,0.5); */
+
+}
+h2 {
+	color:#CFB53B;
+}
+
+h3 {
+	margin: 5px 0 0 0;
+	color:#CFB53B;
+	font: 34px/34px Great Vibes
+}
+
+h4 {
+	color:#CFB53B;
+	font-family: 'Roboto Condensed', cursive !important;
+	font-size: 23px;
+}
+
+h6 {
+	color:#CFB53B;
+	font-family: 'Great Vibes', cursive !important;
+	font-size: 45px;
+}
+
+.gambar {
+  width: inherit;
+  height: 70px;
+  background-image: url(../images/red/logo-wedding.png);
+  margin: 0 0 0 0;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+h2:after {
+  width: inherit;
+  height: 30px;
+  background-image: url(../images/red/diamond.png);
+  margin: 0 0 0 0;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bullet {
+	background: url(../images/red/diamond.png);
+	background-size: contain;
+	background-repeat:no-repeat;
+}
+
+.btn {
+	color:#CFB53B!important;
+	border: 2px solid #CFB53B
+	
+}
+	.btn:hover {
+		background:#CFB53B;
+		color:#fff!important
+	}
+	.btn:active, .btn:focus {
+		background:#CFB53B;
+	}
+.married_coundown {
+	color: #CFB53B;
+}
+
+/* 
+.owl-pagination {
+	background: url(../images/red/arrow_back.png) repeat-x;
+	background-size: cover
+}
+.owl-pagination:before {
+	background: url(../images/red/arrow_end.png);
+	background-size: cover;
+}
+.owl-pagination:after {
+	background: url(../images/red/arrow_start.png);
+	background-size: cover;
+} */
+.owl-page:after {
+	background: url(../images/red/bullet.png);
+	background-size: cover
+}
+.owl-page.active:after {
+	background: url(../images/red/bullet_active.png);
+	background-size: cover
+}
+
+.story_title, .story_title i {
+	color: #CFB53B;
+}
+
+.when_where .over{
+	background:rgba(89,89,89,0.83);
+}
+.footer .over {
+	background:rgba(89,89,89,0.43);
+}
+.paper {
+	background:url(../images/red/paper.jpg);
+}
+.envelope_back {
+	background:url(../images/red/env_back.jpg);
+}
+.env_top {
+	background: url(../images/red/env_top.png);
+}
+.env_top_top {
+	background: url(../images/red/env_top_top.png);
+}
+.envelope_front {
+	background:url(../images/red/envelope_front.png);
+}
+.paper .paper_title {
+	color: #CFB53B;
+}
+
+.tabel {
+	text-align: center;
+}
+
+.im3 {
+  width: inherit;
+  height: 100px;
+  background-image: url(../images/red/logo-wedding.png);
+  /* position: absolute; */
+  /* left: 0; */
+  margin: 30px 0 0 0;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
