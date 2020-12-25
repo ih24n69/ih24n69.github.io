@@ -38,6 +38,14 @@
 
 <body>
 
+<!-- Loader -->
+	<div id="preloader">
+		<div class="socket">
+			<img src="images/load.gif" alt="">
+			<h4 align="center">Sedang Menyiapkan Undangan (^_^)</h4>
+		</div>
+	</div>
+
 
 <!-- Header -->
 <header>
@@ -346,6 +354,18 @@
 
     <!-- Theme JS -->
     <script src="js/script.js"></script>
+
+	<script type="text/javascript">
+	  //script preloader
+	   (function( $ ) {  
+		 $(window).on('load', function(){
+		  $('#preloader').fadeOut('slow',function(){
+		         $(this).hide();
+		     });
+		 });
+
+		})(jQuery);
+	  </script>
 
 	
 <!-- Tombol musik -->
