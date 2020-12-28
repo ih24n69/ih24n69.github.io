@@ -148,11 +148,15 @@ button{
   z-index : 9999;
 }
 
-button.fade:hover {
+button.off:hover {
   opacity: 0.9;
 }
 
-.fade {
+.on {
+  opacity: 0.9;
+}
+
+.off {
   opacity: 0.4;
 }
 

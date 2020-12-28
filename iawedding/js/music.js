@@ -1,18 +1,16 @@
 const button = document.querySelector("#button");
-const icon = document.querySelector("#button > img");
 const audio = document.querySelector("audio");
 
 button.addEventListener("click", () => {
   if (audio.paused) {
     audio.volume = 0.2;
     audio.play();
-    icon.classList.remove('fa-volume-up');
-    icon.classList.add('fa-volume-mute');
+	button.classList.remove("on");
+	button.classList.add("off");
     
   } else {
     audio.pause();
-   icon.classList.remove('fa-volume-mute');
-   icon.classList.add('fa-volume-up');
+   button.classList.remove("off");
+   button.classList.add("on");
   }
-  button.classList.add("fade");
 });
