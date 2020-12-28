@@ -41,6 +41,12 @@
 <!-- Loader -->
 	<div id="preloader">
 		<div class="socket">
+			<?php
+				if(isset($_GET["n"])){
+				echo "<h5 align='center'>Kepada Yth : </h5>";
+				echo "<h4 align='center'>" . $_GET["n"] . "</h4>";
+				}
+			?>
 			<img src="images/load.gif" alt="">
 			<h4 align="center">Sedang Menyiapkan Undangan (^_^)</h4>
 		</div>
