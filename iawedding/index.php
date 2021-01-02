@@ -100,7 +100,7 @@
 
             <!-- Intro Text -->
             <div class="box">
-			<div class="title1 title1_2"><div class="im3" data-image="img/wedding-logo.png"></div></div>
+			<div class="title1 title1_2"><div class="im3" data-image="images/red/ia.png"></div></div>
 			<div class="title1">Undangan</div>
                 <div class="title1"><span>29 - 08 - 2021</span></div>
             </div>
