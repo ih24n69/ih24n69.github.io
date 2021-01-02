@@ -47,7 +47,7 @@
 				echo "<h4 align='center'>" . $_GET["n"] . "</h4>";
 				}
 			?>
-			<img src="images/load.gif" alt="">
+			<img src="images/load1.gif" alt="">
 			<h4 align="center">Sedang Menyiapkan Undangan (^_^)</h4>
 		</div>
 	</div>
